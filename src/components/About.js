@@ -1,17 +1,17 @@
 import React from "react";
-
+import '../App.css';
 
 const About = () => {
   return (
-    <div className="flex justify-content-center flex-column align-items">
-      <div className= "border-box flex justify-content-center flex-column align-items">
-        <div className="border-box">
-      </div>
-      <div className="border-box">
-        <p className="text-align color-blue">
-        Bio  
-        </p>
-      </div>
+    <div className="about-container">
+      <div className= "bio-section">
+        <div className="bio-header">
+            <p className="bio-text">Bio</p>
+            <p>
+              Hello, and welcome to Hayden's React Portfolio
+            </p>
+            <br></br>
+        </div>
       </div>
     </div>
   );

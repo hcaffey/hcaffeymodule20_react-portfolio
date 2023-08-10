@@ -1,7 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
 import About from './components/About';
+//import Projects from './components/pages/Projects';
+//import Contact from './components/pages/Contact';
+//import './components/assets/style.css';
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
