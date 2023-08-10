@@ -83,6 +83,10 @@
   flex-direction: column;
 }
 
+.projects-container {
+  background: black;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
