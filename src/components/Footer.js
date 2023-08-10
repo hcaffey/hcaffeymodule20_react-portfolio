@@ -1,18 +1,20 @@
 import React from "react";
+import '../App.css';
 
 const Footer = ()=> {
     return(
-        <div className="flex justify-content-center margin-bottom">
-        <div className="border-box ">
-            <footer>
-                <ul className="border-box flex space-around list-style-type-none">
-                    <li>
-                        GitHub, LinkedIn, and Twitter tags go here
-                    </li>
-                </ul>
-            </footer>
+        <footer style={{fontFamily: 'Josefin Sans, sans-serif'}} className="footer">
+      <div className="background">
+        <div className="app-wrapper">
+          <div className="social-links">
+            <p className = 'footlink'>More Links </p>
+            <a href="mailto:haydencaffey32@gmail.com">Email</a>
+            <a href="https://github.com/hcaffey">GitHub</a>
+            <a href="">LinkedIn</a>
+          </div>
         </div>
-        </div>
+      </div>
+    </footer>
     )
 };
 
